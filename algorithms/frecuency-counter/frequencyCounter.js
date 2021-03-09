@@ -1,4 +1,4 @@
-function frecuencyCounter(arr1, arr2) {
+function frequencyCounter(arr1, arr2) {
     if (arr1.length !== arr2.length) {
         return false;
     }
