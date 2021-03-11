@@ -5,7 +5,7 @@ const countUniqueValues = (array) => {
     for (let index = 0; index < array.length; index++) {
         const element1 = array[index];
         const element2 = array[index + 1];
-        if (element1 != element2) {
+        if (element1 !== element2) {
             count++;
         }
     }
