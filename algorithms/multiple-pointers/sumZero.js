@@ -1,3 +1,5 @@
+// The input array is always sorted
+
 const sumZero = (arr) => {
     let left = 0;
     let right = arr.length - 1;
